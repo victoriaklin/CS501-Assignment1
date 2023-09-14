@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         val str = "My name is $myname"
         tv?.text = str
 
+
+
         val back = findViewById<ConstraintLayout>(R.id.layout)
         back.setBackgroundColor(Color.CYAN)
     }
